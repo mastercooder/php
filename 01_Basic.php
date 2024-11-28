@@ -6,17 +6,31 @@
     <title>php Lecture</title>
 </head>
 <body>
+    <h1>Basic of PHP</h1>
+    <style>
+        *{
+            font-family: "Bookman old Style";
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            font-size: 40px;
+        }
+        .sub_heading{
+            font-size: 20px;
+        }
+    </style>
     <div class="container">
-        <h1>Learning PHP</h1>
 
         
         <?php
             // Php code is here -> and this is how you write comment in php
+            echo "<b class='sub_heading'>Hello World</b> <br>";
             echo "Hello WOrld -> This is printed using PHP";
             echo "<br>";
             echo "<br>";
 
-            echo "<b>Variable In PHP</b>";
+            echo "<b class='sub_heading'>Variable In PHP</b>";
             echo "<br>";
             $varable1 = 1;
             $varable2 = 2;
@@ -28,7 +42,7 @@
 
             echo "<br>";
             echo "<br>";
-            echo "<b>Operators in PHP</b>";
+            echo "<b class='sub_heading'>Operators in PHP</b>";
             echo "<br>";
             echo "Arathmatic Operators: -, +, *, /";
             echo "<br>";
@@ -43,7 +57,7 @@
             echo "<br>";
             echo "<br>";
 
-            echo "<b>Data Type</b><br>";
+            echo "<b class='sub_heading'>Data Type</b><br>";
             echo "String, Integer, Float, Boolean, Array, Object <br>";
             echo "String";
             $string = "This is a String";
@@ -63,7 +77,7 @@
             echo "<br>";
             echo "<br>";
 
-            echo "<b>Constant</b><br>";
+            echo "<b class='sub_heading'>Constant</b><br>";
             define('PI', 3.14);
             echo PI;
         ?>

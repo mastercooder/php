@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+
+.container h3, p{
+    text-align: center;
+}
+
+input, textarea{
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    textarea{
+        height: 100px;
+    }
+}
+.btn{
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 3px 6px;
+    background: purple;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+h3{
+    font-size: 40px;
+}
+#before_sub{
+    font-size: 23px;
+}
+#after_sub{
+    font-size: 23px;
+    color: darkgreen;
+}
+.rishikesh{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
