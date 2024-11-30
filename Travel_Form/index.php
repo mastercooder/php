@@ -56,10 +56,10 @@ if(isset($_POST['name'])){
     <img class="rishikesh" src="https://plus.unsplash.com/premium_photo-1697729439457-85d4b9d3a2cb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Rishikesh img">
     <div class="container">
         <h3>Welcome to Rishikesh Trip Form</h3>
-        <p id="before_sub">Enter your Details and Submit the From to conform your participation in the Trip</p>
+        <p id="before_sub">Secure your spot! Enter your details now to confirm your trip participation</p>
         <?php
         if ($insert==true){
-            echo "<p id='after_sub'>Thanks For Submitting the Form. You bee Notify When we are Good to Go!</p>";
+            echo "<p id='after_sub'>Thank you for submitting the form. You will be notified when we are Good to Go!</p>";
         }
         ?>
 
